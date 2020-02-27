@@ -1,0 +1,2 @@
+views主要是用来放一些大的视图，比如首页视图，购物车视图，等等;
+https://blog.csdn.net/wuyxinu/article/details/103684950
