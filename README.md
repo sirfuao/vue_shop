@@ -1,19 +1,6 @@
-# vue_shop
+# 这是一个vue电商实战项目，非常适合需要实战经验的小伙伴学习
+项目主要分为 四个部分 首页 分类页 购物车 我的
 
-## Project setup
-```
-npm install
-```
+首页：
+![](https://ae01.alicdn.com/kf/Hd11643058837467f800137410afed82dI.jpg)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
