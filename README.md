@@ -2,7 +2,7 @@
 项目主要分为 四个部分 首页 分类页 购物车 我的
 
 ### 首页：
-![](https://ae01.alicdn.com/kf/Hdbfb1474c0da4a919db5e9f33b59f14cz.jpg)
+![](https://ae01.alicdn.com/kf/H576a1936ffc146c48ccb694fc903ae3ff.png)
 
 ![](https://ae01.alicdn.com/kf/Hfcae15046abd485ab91b636a75f9d4bbv.jpg)
 
