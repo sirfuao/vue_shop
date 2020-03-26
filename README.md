@@ -7,6 +7,7 @@
 ![首页2](https://ae01.alicdn.com/kf/H3b46e1c4b2b340a59f3d1f2e2cf81cb1a.png)
 
 ## 分类页
+![分类](https://ae01.alicdn.com/kf/H2df2b21b7370478a90f38895f8f9f2adW.png)
 
 
 ### 购物车
