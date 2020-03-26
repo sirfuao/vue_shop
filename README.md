@@ -16,7 +16,7 @@
 ![](https://ae01.alicdn.com/kf/H288bf5ce9ff24ab3b65fde4e1202f8c7s.jpg)
 
 ### 我的
-![](https://ae01.alicdn.com/kf/H06c3c059527845a0984f431a5aedb6dd9.jpg)
+![](https://ae01.alicdn.com/kf/H06c3c059527845a0984f431a5aedb6dd9.png)
 
 ### 欢迎各位大佬的到来，可以加我微信一起学习
 ![](https://ae01.alicdn.com/kf/H4c5eec6b185e4797ba2bc02218aaa1f2y.png)
