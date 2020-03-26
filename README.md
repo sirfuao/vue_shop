@@ -21,5 +21,5 @@
 ### 我的
 ！[](https://ae01.alicdn.com/kf/H06c3c059527845a0984f431a5aedb6dd9.jpg)
 
-### 由于某些原因，项目中的接口地址是错误的，欢迎各位大佬的到来，可以加我微信一起学习
+### 欢迎各位大佬的到来，可以加我微信一起学习
 ![](https://ae01.alicdn.com/kf/H4c5eec6b185e4797ba2bc02218aaa1f2y.png)
