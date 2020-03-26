@@ -14,7 +14,7 @@
 ### 付款
 ![](https://ae01.alicdn.com/kf/H81f1f4454385470e826d1bdc4264d434G.jpg)
 ![](https://ae01.alicdn.com/kf/H288bf5ce9ff24ab3b65fde4e1202f8c7s.jpg)
-![](https://ae01.alicdn.com/kf/H4c5eec6b185e4797ba2bc02218aaa1f2y.png)
+
 ### 我的
 ![](https://ae01.alicdn.com/kf/H06c3c059527845a0984f431a5aedb6dd9.jpg)
 
