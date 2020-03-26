@@ -3,22 +3,23 @@
 
 ### 首页：
 ![首页](https://github.com/sirfuao/imgages/blob/master/shouye.png)
-
-![首页2](https://ae01.alicdn.com/kf/H3b46e1c4b2b340a59f3d1f2e2cf81cb1a.png)
+![首页2](https://github.com/sirfuao/imgages/blob/master/shouye2.png)
 
 ### 分类页
-![分类](https://ae01.alicdn.com/kf/H2df2b21b7370478a90f38895f8f9f2adW.png)
+![分类1](https://github.com/sirfuao/imgages/blob/master/fenlei.png)
+![分类2](https://github.com/sirfuao/imgages/blob/master/fenlei2.png)
 
+### 商品详情
+![商品商品详情1](https://github.com/sirfuao/imgages/blob/master/xq.png)
+![商品详情2](https://github.com/sirfuao/imgages/blob/master/xq2.png)
+![商品详情3](https://github.com/sirfuao/imgages/blob/master/xq2.png)
 
 ### 购物车
-
-
-### 付款
-
-
+![空购物车](https://github.com/sirfuao/imgages/blob/master/gwc1.png)
+![有数据购物车](https://github.com/sirfuao/imgages/blob/master/gwc2.png)
 
 ### 我的
-
+![我的](https://github.com/sirfuao/imgages/blob/master/my.png)
 
 ### 欢迎各位大佬的到来，可以加我微信一起学习
-![我的微信](https://ae01.alicdn.com/kf/H4c5eec6b185e4797ba2bc02218aaa1f2y.png)
+![我的微信](https://github.com/sirfuao/imgages/blob/master/my_weChat.png)
