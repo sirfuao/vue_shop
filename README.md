@@ -3,8 +3,6 @@
 
 ### 首页：
 ![](https://ae01.alicdn.com/kf/Hd11643058837467f800137410afed82dI.jpg)
-
-
 ![](https://ae01.alicdn.com/kf/Hfcae15046abd485ab91b636a75f9d4bbv.jpg)
 
 ### 分类页
@@ -15,7 +13,6 @@
 
 ### 付款
 ![](https://ae01.alicdn.com/kf/H81f1f4454385470e826d1bdc4264d434G.jpg)
-
 ![](https://ae01.alicdn.com/kf/H288bf5ce9ff24ab3b65fde4e1202f8c7s.jpg)
 
 ### 我的
