@@ -17,7 +17,5 @@ export default {
 
 <style lang="less">
 // @import "./assets/css/base.css";
-    #app{
-        padding-bottom:1rem; 
-    }
+    
 </style>

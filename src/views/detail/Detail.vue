@@ -6,7 +6,7 @@
                 <span :class="{active:contIndex===index}" v-for="(item,index) in title" :key="index" @click="changeIndex(index)">{{ item }}</span>
             </div>
         </van-nav-bar>
-        <Scroll ref="swiper">
+      
         <!-- 轮播图组件 -->
         <detail-swiper :detailSwiper="this.detailSwiper"></detail-swiper>
         <!-- 基本信息组件 -->
@@ -21,7 +21,7 @@
         <detail-comment-info ref="commentRef" :commentInfo="commentInfo"></detail-comment-info>
         <!-- 商品推荐 -->
         <goods-list ref="recommendRef" :goods="recommend"></goods-list>
-        </Scroll>
+
         <!-- 底部商品导航 -->
         <detail-footer-bar class="footer_bar" @addCart="addCart"></detail-footer-bar>
     </div>
@@ -116,15 +116,15 @@ export default {
     //      this.$nextTick(()=>{
         
     //    });
-       setTimeout(()=>{
-               // 将商品、推荐、参数、评论距离顶部的距离分别放在一个数组中
-        this.themeTopYs.push(0);  //商品距离顶部的距离是0
-        this.themeTopYs.push(this.$refs.paramsRef.$el.offsetTop); //$el 是拿到对应的元素节点
-        this.themeTopYs.push(this.$refs.commentRef.$el.offsetTop)
-        this.themeTopYs.push(this.$refs.recommendRef.$el.offsetTop)
-        console.log(this.themeTopYs)
-        console.log(this.$refs.commentRef.$el)
-       },200);
+    //    setTimeout(()=>{
+    //            // 将商品、推荐、参数、评论距离顶部的距离分别放在一个数组中
+    //     this.themeTopYs.push(0);  //商品距离顶部的距离是0
+    //     this.themeTopYs.push(this.$refs.paramsRef.$el.offsetTop); //$el 是拿到对应的元素节点
+    //     this.themeTopYs.push(this.$refs.commentRef.$el.offsetTop)
+    //     this.themeTopYs.push(this.$refs.recommendRef.$el.offsetTop)
+    //     console.log(this.themeTopYs)
+    //     console.log(this.$refs.commentRef.$el)
+    //    },200);
     },
     methods: {
         //返回到home页面
@@ -156,6 +156,9 @@ export default {
 };
 </script>
 <style lang="less" scoped>
+    .detail{
+        padding-bottom: 1rem;
+    }
     .van-icon::before{
         color: gray;
     }

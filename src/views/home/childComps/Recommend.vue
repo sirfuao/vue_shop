@@ -2,7 +2,7 @@
     <div class="recommend">
         <div class="recommend-iten" v-for="(item,index) in recommend" :key="index">
             <a :href="item.link">
-            <img :src="item.image"/>
+            <img :src="item.image" @load="recomLoad"/>
             </a>
         </div>
     </div>
@@ -20,6 +20,11 @@ export default {
     },
     data() {
         return {};
+    },
+    methods:{
+        recomLoad() {
+            this.$emit("recomImgLoad");
+        }
     }
 };
 </script>

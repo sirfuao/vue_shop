@@ -2,21 +2,21 @@
     <div>
         <!-- 顶部 nav-bar -->
         <van-nav-bar title="购物街" :fixed="true" :border="false" />
-        <scroll class="scroll" @scroll="scroll" :probeType="3" ref="scrollRef">
+        <div class="scroll">
             <!-- 轮播图 -->
             <home-swiper :banner="banner"></home-swiper>
             <!-- 推荐 -->
             <recommend :recommend="recommend"></recommend>
             <!-- 推荐下面的介绍 -->
-            <feature-view @featerImgLoad="featerImgLoad"></feature-view>
+            <feature-view></feature-view>
             <!-- 导航吸顶 -->
-            <van-sticky :offset-top="100">
+            <van-sticky :offset-top="45">
                 <!-- tabControl导航 -->
                 <tab-control :title="['流行','新款','精选']" @titleChange="titleChange"></tab-control>
             </van-sticky>
         <!-- tabControl下面的商品 -->
         <goods-list :goods="goods[currentType].list"></goods-list>
-        </scroll>
+        </div>
         <!-- 返回顶部按钮 -->
         <!-- <ReturnTop></ReturnTop> -->
     </div>
@@ -61,23 +61,26 @@ export default {
         this.getHomeGoods('sell');
 
         //图片自定义事件 当图片加载后就会触发这个自定义事件
-         this.$bus.$on("itemImgLoad",()=>{
+        //  this.$bus.$on("itemImgLoad",()=>{
             // console.log("a")
-            this.$refs.scrollRef.refresh()
-        })
+            // this.$refs.scrollRef.refresh()
+        // })
+
+        document.addEventListener('scroll', this.scrollMoreData, false)
+        // console.log(document.querySelector(".goods_list_wrap").offsetHeight)
         
     },
     methods: {
-        getHomeGoods(type) {
-            const page = this.goods[type].page + 1;
-            getHomeGoods(type, page).then(res => {
-                this.goods[type].list.push(...res.data.list);
+        // 请求函数
+        getHomeGoods(currentType) {
+            var page = this.goods[currentType].page + 1;
+            getHomeGoods(currentType, page).then(res => {
+                this.goods[currentType].list.push(...res.data.list);
                 // this.goods[type].list = res.data.list 不能这样写，不然永远只有三十条数据
-                this.goods[type].page++;
-                console.log(this.goods[type].list);
+                this.goods[currentType].page++;
+                console.log(this.goods[currentType].list);
             });
-            this.$refs.scrollRef.refresh();
-            // console.log(this.$refs.scrollRef)
+          
         },
         //点击tabControll切换
         titleChange(index){
@@ -93,14 +96,24 @@ export default {
             }
             console.log(index)
         },
-        // 监听滚动的位置
-        scroll(position) {
-            console.log(position)
-        },
 
-        featerImgLoad() {
-            this.$refs.scrollRef.refresh();
-        }
+        // 自定义滚动事件
+        scrollMoreData() {
+            // 计算 总页数
+            // this.pageTotal = Math.ceil(this.total / this.goodsParams.pagesize);
+            const scrollTopHeight = document.documentElement.scrollTop;         //  获取 文档向上滚动的 距离;
+            const clientHeight = document.documentElement.clientHeight;         // 获取浏览器窗口的 高度;
+            const offsetHeight = document.querySelector(".scroll").offsetHeight;   // 获取滚动 内容的 高度;
+             if ((scrollTopHeight + clientHeight) - 46 + 50 >= offsetHeight) {
+                 // -54 是因为顶部的 搜索框占了 54px;  
+                
+                this.getHomeGoods(this.currentType);
+                console.log('触底了'); 
+          }
+                // console.log(scrollTopHeight)    //4736    4736 + 812 = 5548 - 5452 = 底部  -  上部分 = 50 - 46 = 4 
+                // console.log(clientHeight)       // 812
+                // console.log(offsetHeight)       //5452
+     },
     },
     
     components: {
