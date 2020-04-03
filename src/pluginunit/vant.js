@@ -15,6 +15,7 @@ import {
     SubmitBar,
     Checkbox,
     Icon,
+    Loading,
 } from 'vant'
 
 Vue.use(Button);
@@ -30,5 +31,6 @@ Vue.use(GoodsActionButton);
 Vue.use(Toast);
 Vue.use(Card);
 Vue.use(SubmitBar);
-Vue.use(Checkbox)
-Vue.use(Icon)
+Vue.use(Checkbox);
+Vue.use(Icon);
+Vue.use(Loading);
