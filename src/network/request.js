@@ -5,7 +5,7 @@ import axios from "axios";
 export function request(config) {
     // 1、创建 axios 实例
     const instance = axios.create({
-        baseURL:'',
+        baseURL:'要接口找老师',
         timeout:5000
     });
     // 2、axios 的拦截
