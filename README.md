@@ -42,7 +42,4 @@
 ### 我的
 ![我的](https://github.com/sirfuao/imgages/blob/master/my.png)
 
-### 欢迎各位大佬的到来，可以加我微信一起学习
-![我的微信](https://github.com/sirfuao/imgages/blob/master/my_weChat.png)
-
 #### 能看到这里，说明你一定是一个想从事前端，也是一个非常有目标的人，一起加油吧，陌生人！
